@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+video, canvas {
+  max-width: 90%;
+  margin-top: 20px;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
