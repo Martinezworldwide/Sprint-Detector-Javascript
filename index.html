@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sprint Detector</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose"></script>
+</head>
+<body>
+  <h1>Sprint Detector (GitHub Pages Edition)</h1>
+  <input type="file" id="videoUpload" accept="video/*"><br>
+  <video id="video" controls></video>
+  <canvas id="overlay"></canvas>
+  <p id="status">Waiting for video...</p>
+  <ul id="clips"></ul>
+  <script src="script.js"></script>
+</body>
+</html>
